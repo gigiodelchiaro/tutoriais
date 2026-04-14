@@ -20,11 +20,11 @@
 
 /* Print-specific optimizations */
 @media print {
-  .qr-code-section {
+  /* .qr-code-section {
     display: flex !important;
     margin-top: 5rem !important;
     page-break-before: always;
-  }
+  } */
   .breadcrumbs {
     display: none;
   }

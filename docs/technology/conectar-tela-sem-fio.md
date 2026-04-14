@@ -14,10 +14,6 @@ Verifique se o Wi-Fi do seu computador está ativado e se você está na mesma r
 ## Passo 3: Atalho <kbd>⊞ Win</kbd> + <kbd>K</kbd>
 1. No seu teclado, pressione a combinação de teclas **<kbd>⊞ Win</kbd> + <kbd>K</kbd>**.
 2. Um menu lateral chamado "Transmitir" (ou "Cast") será aberto no lado direito da tela.
-
-![Exemplo do menu de transmissão](/img/exemplo.png)
-*(Imagem ilustrativa: coloque o arquivo transmitir_exemplo.png na pasta static/img/)*
-
 3. Selecione a sua tela/TV na lista de dispositivos disponíveis.
 4. Aguarde a conexão ser estabelecida.
 

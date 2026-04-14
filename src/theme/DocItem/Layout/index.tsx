@@ -34,7 +34,7 @@ export default function LayoutWrapper(props: Props): JSX.Element {
           marginBottom: '1rem',
         }} className="qr-code-section">
           <div style={{ marginRight: '1rem', textAlign: 'right' }}>
-            <p style={{ marginBottom: '0', fontSize: '0.7rem', fontWeight: 'bold' }}>SCAN TO VIEW ONLINE</p>
+            <p style={{ marginBottom: '0', fontSize: '0.7rem', fontWeight: 'bold' }}>VERSÃO ATUALIZADA</p>
             <p style={{ marginBottom: '0', fontSize: '0.6rem', color: 'var(--ifm-color-emphasis-700)' }}>
               {currentUrl}
             </p>
