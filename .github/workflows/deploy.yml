@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - main
-    # Review filter config (`paths`, `tags`, etc.) at https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#onpushpull_requestpull_request_targetpaths
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
@@ -27,15 +29,9 @@ jobs:
       - name: Build website
         run: bun run build
 
-      # Popular action to deploy to GitHub Pages:
-      # Docs: https://github.com/peaceiris/actions-gh-pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Build output to publish
           publish_dir: ./build
-          # The following lines are NOT needed for setting up a custom domain or CNAME.
-          # peaceiris/actions-gh-pages automatically handles CNAME if it's in the publish_dir.
-          # Since CNAME is in static/, it will be in build/ after bun run build.
           cname: tutoriais.gigio.dev
